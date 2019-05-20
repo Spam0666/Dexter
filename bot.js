@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const devs = ['389090790984515594'];
+const devs = ['524870863720415242'];
 const db = require('quick.db');
 const premium = ['470896018603376640']
 const client = new Discord.Client();   
@@ -27,7 +27,7 @@ const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const sql = require("sqlite");
 const dateFormat = require('dateformat'); 
 const pretty = require('pretty-ms') 
-const prefix = 'a';
+const prefix = '-';
 var table = require('table').table
 var ti={}  
 ,spee={}
@@ -130,11 +130,11 @@ ${prefix}deletecolors <number> / لحذف الالوان
 **
 ${prefix}play / لتشغيل أغنية برآبط أو بأسم
 ${prefix}skip / لتجآوز الأغنية الحآلية
-${prefix}pause / إيقآف الأغنية مؤقتا
-${prefix}resume / لموآصلة الإغنية بعد إيقآفهآ مؤقتا
+${prefix}pause / إيقآف الأغنية مؤقتاً
+${prefix}resume / لموآصلة الإغنية بعد إيقآفهآ مؤقتاً
 ${prefix}vol / لتغيير درجة الصوت 100 - 0
 ${prefix}stop / لإخرآج البوت من الروم
-${prefix}np / لمعرفة الأغنية المشغلة حآليا
+${prefix}np / لمعرفة الأغنية المشغلة حآلياً
 ${prefix}queue / لمعرفة قآئمة التشغيل
 **
         ***__Games orders__***
